@@ -49,7 +49,7 @@ print(a_list)#1
 print(a_list[1])#2
 print(a_list[1:4])
 
-#4.Concatenate the following lists A = [1, 'a'] and B = [2, 1, 'd']
+#4.Concatenate(add) the following lists A = [1, 'a'] and B = [2, 1, 'd']
 A = [1, 'a'] 
 B = [2, 1, 'd']
 print(A+B)
