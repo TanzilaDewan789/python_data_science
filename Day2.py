@@ -39,3 +39,17 @@ a[0]="papaya"
 print(a)
 print('b[0]:',b[0])
 
+#Quiz on List
+"""1.Create a list a_list, with the following elements 1, hello, [1,2,3] and True
+2.Find the value stored at index 1 of a_list.
+3.Retrieve the elements stored at index 1, 2 and 3 of a_list."""
+
+a_list=[1,'hello',[1,2,3],True]
+print(a_list)#1
+print(a_list[1])#2
+print(a_list[1:4])
+
+#4.Concatenate the following lists A = [1, 'a'] and B = [2, 1, 'd']
+A = [1, 'a'] 
+B = [2, 1, 'd']
+print(A+B)
