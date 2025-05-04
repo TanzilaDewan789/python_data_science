@@ -76,3 +76,14 @@ print(Heart_Rate)
 #Decreasing Order
 Heart_Rate.sort(reverse=True)
 print(Heart_Rate)
+
+#Adding 2 List
+l1=[1,2,3] 
+l2=[1,1,1]
+l=l1+l2
+print(l)
+
+#Append
+A = [1]
+A.append([2, 3, 4, 5])
+print(A)
