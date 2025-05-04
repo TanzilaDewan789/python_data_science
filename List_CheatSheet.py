@@ -61,9 +61,18 @@ print(numbers_id)
 
 #Slicing--> You can use slicing to access a range of elements from a list.
 #syntax-->list_name[start:end:step] 
-Heart_Rate=[60,75,65,80,90,95,100]
+Heart_Rate=[77,65,66,60,90,95,60]
 print(Heart_Rate[2:5])
 print(Heart_Rate[:6])
 print(Heart_Rate[3:])
 print(Heart_Rate[::2])#every 2nd 
 print(Heart_Rate[::3])#every #3rd 
+
+
+#sort()
+#Increasing Order
+Heart_Rate.sort()
+print(Heart_Rate)
+#Decreasing Order
+Heart_Rate.sort(reverse=True)
+print(Heart_Rate)
