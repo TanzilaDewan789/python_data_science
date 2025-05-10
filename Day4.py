@@ -42,3 +42,21 @@ print(release_year)
 
 # Verify the key is in the dictionary
 print('The Bodyguard' in release_year)
+
+
+#Quiz on Dictionaries
+"""1.Create simple dictionary name soundtrack_dic on- The Bodyguard release 1992, Saturday Night Fever released 1977
+a) In the dictionary soundtrack_dic what are the keys ?
+b) In the dictionary soundtrack_dic what are the values ?
+"""
+soundtrack_dic={"The Bodyguard":1992,
+                "Saturday Night Fever": 1977}
+print(soundtrack_dic)
+print(soundtrack_dic.keys())
+print(soundtrack_dic.values())
+
+"""2.The Albums Back in Black, The Bodyguard and Thriller have the following music recording sales in millions 50, 50 and 65 respectively
+a) Create a dictionary album_sales_dict where the keys are the album name and the sales in millions are the values.
+b) Use the dictionary to find the total sales of Thriller:
+c) Find the names of the albums from the dictionary using the method keys():
+d) Find the values of the recording sales from the dictionary using the method values:"""
