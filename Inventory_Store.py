@@ -52,5 +52,6 @@ del(inventory["ProductNo1_releaseYear"])
 del(inventory["ProductNo2_releaseYear"])
 print(inventory)
 
+#Taking keys as list
 dict =  {"A":1,"B":"2","C":[3,3,3],"D":(4,4,4),'E':5,'F':6}
 print(list(dict.keys()))
