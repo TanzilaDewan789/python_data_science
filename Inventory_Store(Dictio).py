@@ -1,3 +1,5 @@
+
+
 #Inventory Store
 #Task-1:First you need to create an empty dictionary, where you will be storing the product details.
 inventory = {}
