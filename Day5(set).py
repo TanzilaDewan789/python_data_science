@@ -54,3 +54,12 @@ print(album_set2.difference(album_set1))
 
 # Find the union of two sets
 print(album_set1.union(album_set2))
+
+# Check if superset
+print(set(album_set1).issuperset(album_set2))
+# Check if subset
+print(set(album_set2).issubset(album_set1))
+# Check if subset
+print(set({"Back in Black", "AC/DC"}).issubset(album_set1)) 
+# Check if superset
+print(album_set1.issuperset({"Back in Black", "AC/DC"}))
