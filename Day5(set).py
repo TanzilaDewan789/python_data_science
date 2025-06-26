@@ -38,5 +38,19 @@ print("None" in A)
 album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
 album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
 print(album_set1, album_set2)
+
+#represent these common elements with the intersection of two values.
 intersection = album_set1 & album_set2
 print(intersection)
+# Use intersection method to find the intersection of album_list1 and album_list2
+print(album_set1.intersection(album_set2))
+
+#You can find all the elements that are only contained in album_set1 using the difference method:
+# Find the difference in set1 but not set2
+print(album_set1.difference(album_set2))
+
+#The elements in album_set2 but not in album_set1 is given by:
+print(album_set2.difference(album_set1))
+
+# Find the union of two sets
+print(album_set1.union(album_set2))
