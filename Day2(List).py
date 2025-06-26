@@ -1,4 +1,4 @@
-#Creating on list
+#Creating list
 List=["Tanzila",1,'time',6.0,7.99,"Rain"] #Positive index starting from 0,1,2..left to right
 print(List)
 # List slicing
@@ -54,3 +54,4 @@ A = [1, 'a']
 B = [2, 1, 'd']
 print(A+B)
 print("Tanzila")
+
