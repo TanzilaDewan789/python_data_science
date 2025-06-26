@@ -63,3 +63,23 @@ print(set(album_set2).issubset(album_set1))
 print(set({"Back in Black", "AC/DC"}).issubset(album_set1)) 
 # Check if superset
 print(album_set1.issuperset({"Back in Black", "AC/DC"}))
+
+#Quiz on Sets
+#1.Convert the list ['rap','house','electronic music', 'rap'] to a set:
+list_set = set (['rap','house','electronic music', 'rap'])
+print(list_set)
+
+#2.Consider the list A = [1, 2, 2, 1] and set B = set([1, 2, 2, 1]), does sum(A) == sum(B)?
+A = [1, 2, 2, 1]
+print("The sum of A is= ",sum(A))
+B = set([1, 2, 2, 1])
+print("The sum of B is= ",sum(B))
+
+#3.Create a new set album_set3 that is the union of album_set1 and album_set2:
+album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
+album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
+album_set3 = album_set1.union(album_set2)
+print(album_set3)
+
+#4.Find out if album_set1 is a subset of album_set3:
+print(album_set1.issubset(album_set3))
