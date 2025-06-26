@@ -37,6 +37,6 @@ print("None" in A)
 #Remember that with sets you can check the difference between sets, as well as the symmetric difference, intersection, and union:
 album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
 album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
-print(album_set1)
-print(album_set2)
 print(album_set1, album_set2)
+intersection = album_set1 & album_set2
+print(intersection)
