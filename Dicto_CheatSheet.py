@@ -1,16 +1,7 @@
-#Creating a Dictionary
+#creating a list
 person = {
-    "name": "Jhone",
-    "age" : 24,
-    "city":"NY"
+    "name": "Tanzila Dewan",
+    "age":24,
+    "city":'UK'
 }
 print(person)
-
-#Accessing Values
-print(person.values())
-#Add/Modify
-person['University']= 'MIT'
-#Delete
-del(person["city"])
-print(person)
-
