@@ -1,5 +1,4 @@
 #Creating a Dictionary
-
 person = {
     "name": "Jhone",
     "age" : 24,
@@ -9,4 +8,9 @@ print(person)
 
 #Accessing Values
 print(person.values())
-person['Keys6']= '6'
+#Add/Modify
+person['University']= 'MIT'
+#Delete
+del(person["city"])
+print(person)
+
