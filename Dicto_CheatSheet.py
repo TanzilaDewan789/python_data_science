@@ -1,4 +1,4 @@
-#creating a list
+#creating a Dictionary
 person = {
     "name": "Tanzila Dewan",
     "age":24,
