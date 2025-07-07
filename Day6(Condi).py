@@ -96,9 +96,44 @@ There are three types of logical operation-
 2.or-only when A&B both are false result is false
 3.not- invert the input"""
 
-#Logical operation conditional statement
-album_year= int (input("enter album year"))
+#Logical operation conditional statement-
+#1(AND)
+"""album_year= int (input("enter album year"))
 if (album_year>1979) and (album_year<1990):#true & true = true
     print("Album year was in between 1980 and 1989")
 else:
-    print("not found")
+    print("not found")"""
+
+#2.(OR)
+"""album_year =int (input("Your album year: "))
+if (album_year<1980) or(album_year>1989):
+    print("Album was not made in the 1980's")
+else:
+    print("The Album was made in the 1980's ")"""
+
+#3.NOT
+"""album_year = int(input("album year ? "))
+if not (album_year == 1984):
+    print("Album year is not 1984")
+"""
+#Quiz
+#1.check if a player Lionel Messi has more than 10 achievements. If the condition is true, print the player's name, sport, and achievements else print does not have more than 10 achievements.
+player_name = "Lionel Messi"
+sport = "Soccer"
+achievements = 12
+
+if achievements > 10:
+    print(f"{player_name} plays {sport} and has {achievements} achievements.")
+else:
+    print(f"{player_name} does not have more than 10 achievements.")
+
+#2.check if a player belongs to the sport Tennis or has exactly 20 achievements. If the condition is true, print a success message.
+player_name = "Roger Federer"
+sport = "Tennis"
+achievements = 20
+
+if sport == "Tennis" or achievements == 20:
+    print(f"{player_name} meets the criteria! They play {sport} and have {achievements} achievements.")
+else:
+    print(f"{player_name} does not meet the criteria.")
+
