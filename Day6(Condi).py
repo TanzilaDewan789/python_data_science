@@ -48,18 +48,20 @@ else:
 #Branching
 #Branching allows us to run different statements for different inputs. 
 
-# If statement example:-1
 
+#1. If statement example
 age = 19
-#age = 18
-
-#expression that can be true or false
-if (age > 18):
-    
-    #within an indent, we have the expression that is run if the condition is true
+if (age > 18):    
     print("you can enter" )
-
-#The statements after the if statement will run regardless if the condition is true or false 
 print("move on")
 
-#2
+
+
+#2. Else statement example
+age1 = int (input("How old are you?"))
+if (age1 >18):
+    print("you can enter")
+else:
+    print("go see Meat Loaf")
+
+print("Move on")    
