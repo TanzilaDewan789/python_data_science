@@ -40,7 +40,26 @@ else:
 # Compare characters  by multiplication
 
 Multi = 'BA'
-if(value1>"AB"):
+if(Multi>"AB"):
     print('true')
 else: 
     print("false") 
+
+#Branching
+#Branching allows us to run different statements for different inputs. 
+
+# If statement example:-1
+
+age = 19
+#age = 18
+
+#expression that can be true or false
+if (age > 18):
+    
+    #within an indent, we have the expression that is run if the condition is true
+    print("you can enter" )
+
+#The statements after the if statement will run regardless if the condition is true or false 
+print("move on")
+
+#2
