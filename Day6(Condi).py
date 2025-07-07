@@ -78,7 +78,7 @@ else:
 print("Move on")"""
 
 #4.Condition statement example- take album year and print if its greater then 1980 or not
-album_year=int(input("whats the album year release year? "))
+"""album_year=int(input("whats the album year release year? "))
 if(album_year>1980):
     print("Album year is greater than 1980")
 elif(album_year==1980):
@@ -87,4 +87,18 @@ else:
     print("Less then 1980")
 
 print("release something new")
+"""
 
+#Logical operators
+"""Sometimes you want to check more than one condition at once. For example, you might want to check if one condition and another condition are both True. Logical operators allow you to combine or modify conditions.
+There are three types of logical operation-
+1.and-only when A&B both are true result is true
+2.or-only when A&B both are false result is false
+3.not- invert the input"""
+
+#Logical operation conditional statement
+album_year= int (input("enter album year"))
+if (album_year>1979) and (album_year<1990):#true & true = true
+    print("Album year was in between 1980 and 1989")
+else:
+    print("not found")
