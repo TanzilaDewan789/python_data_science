@@ -50,24 +50,24 @@ else:
 
 
 #1. If statement example
-"""age = 19
+age = 19
 if (age > 18):    
     print("you can enter" )
 print("move on")
-"""
+
 
 
 #2. Else statement example
-"""age1 = int (input("How old are you?"))
+age1 = int (input("How old are you?"))
 if (age1 >18):
     print("you can enter")
 else:
     print("go see Meat Loaf")
 
-print("Move on") """   
+print("Move on")
 
 #3.Elif statement example
-"""age2 = int(input("Tell me your age: "))
+age2 = int(input("Tell me your age: "))
 if (age2>18):
     print("You can enter")
 elif (age2==18):
@@ -75,10 +75,10 @@ elif (age2==18):
 else:
     print("go see Meat Loaf")
 
-print("Move on")"""
+print("Move on")
 
 #4.Condition statement example- take album year and print if its greater then 1980 or not
-"""album_year=int(input("whats the album year release year? "))
+album_year=int(input("whats the album year release year? "))
 if(album_year>1980):
     print("Album year is greater than 1980")
 elif(album_year==1980):
@@ -87,7 +87,7 @@ else:
     print("Less then 1980")
 
 print("release something new")
-"""
+
 
 #Logical operators
 """Sometimes you want to check more than one condition at once. For example, you might want to check if one condition and another condition are both True. Logical operators allow you to combine or modify conditions.
@@ -98,24 +98,24 @@ There are three types of logical operation-
 
 #Logical operation conditional statement-
 #1(AND)
-"""album_year= int (input("enter album year"))
+album_year= int (input("enter album year"))
 if (album_year>1979) and (album_year<1990):#true & true = true
     print("Album year was in between 1980 and 1989")
 else:
-    print("not found")"""
+    print("not found")
 
 #2.(OR)
-"""album_year =int (input("Your album year: "))
+album_year =int (input("Your album year: "))
 if (album_year<1980) or(album_year>1989):
     print("Album was not made in the 1980's")
 else:
-    print("The Album was made in the 1980's ")"""
+    print("The Album was made in the 1980's ")
 
 #3.NOT
-"""album_year = int(input("album year ? "))
+album_year = int(input("album year ? "))
 if not (album_year == 1984):
     print("Album year is not 1984")
-"""
+
 #Quiz
 #1.check if a player Lionel Messi has more than 10 achievements. If the condition is true, print the player's name, sport, and achievements else print does not have more than 10 achievements.
 player_name = "Lionel Messi"
@@ -137,3 +137,12 @@ if sport == "Tennis" or achievements == 20:
 else:
     print(f"{player_name} does not meet the criteria.")
 
+#3.check if a player has less than 10 achievements and does not play Soccer. Print their details if they meet the criteria
+player_name = "Usain Bolt"
+sport = "Athletics"
+achievements = 8
+
+if achievements < 10 and sport != "Soccer":
+    print(f"{player_name} plays {sport} and has only {achievements} achievements.")
+else:
+    print(f"{player_name} does not meet the criteria.")
