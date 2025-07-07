@@ -50,18 +50,41 @@ else:
 
 
 #1. If statement example
-age = 19
+"""age = 19
 if (age > 18):    
     print("you can enter" )
 print("move on")
-
+"""
 
 
 #2. Else statement example
-age1 = int (input("How old are you?"))
+"""age1 = int (input("How old are you?"))
 if (age1 >18):
     print("you can enter")
 else:
     print("go see Meat Loaf")
 
-print("Move on")    
+print("Move on") """   
+
+#3.Elif statement example
+"""age2 = int(input("Tell me your age: "))
+if (age2>18):
+    print("You can enter")
+elif (age2==18):
+    print("go see Pink Floyd")
+else:
+    print("go see Meat Loaf")
+
+print("Move on")"""
+
+#4.Condition statement example- take album year and print if its greater then 1980 or not
+album_year=int(input("whats the album year release year? "))
+if(album_year>1980):
+    print("Album year is greater than 1980")
+elif(album_year==1980):
+    print("album was release in year 1980")
+else:
+    print("Less then 1980")
+
+print("release something new")
+
