@@ -15,6 +15,13 @@ while i<=10:
     print(i)
     i+=1
 
+#print  number from 10 to 1
+i=10
+while i>=1:
+    print(i)
+    i-=1
+
+
 #Take user input for table and print it from 1 to 10
 n = int (input("Enter number for table: "))
 i = 1
