@@ -42,3 +42,10 @@ idx =0
 while idx<len(num):
     print(num[idx])
     idx+=1
+
+#print ["apple", 'berry', 'mango',"orange","pineapple"]
+fruits = ["apple", 'berry', 'mango',"orange","pineapple"]
+idx = 0
+while idx<len(fruits):
+    print(fruits[idx])
+    idx+=1
