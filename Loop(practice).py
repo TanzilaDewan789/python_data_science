@@ -14,4 +14,17 @@ i=1
 while i<=10:
     print(i)
     i+=1
-    
+
+#Take user input for table and print it from 1 to 10
+n = int (input("Enter number for table: "))
+i = 1
+while i<=10:
+    print(i*n)
+    i+=1
+
+#Print table in table formate like 5*1=5
+n = int (input("enter number: ")) 
+i =1
+while i<=10:
+    print(f"{n}*{i} = {n*i}")
+    i+=1
