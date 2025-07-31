@@ -35,7 +35,7 @@ i =1
 while i<=10:
     print(f"{n}*{i} = {n*i}")
     i+=1
-
+#traverse
 #print the element of following list by using loop[1,4,9,16,25,36,49,64,81,100]
 num =[1,4,9,16,25,36,49,64,81,100]
 idx =0
@@ -49,3 +49,37 @@ idx = 0
 while idx<len(fruits):
     print(fruits[idx])
     idx+=1
+
+
+#Search for a number x in this tuple using loop
+num = (1,4,9,16,25,36,49,64,82,100,36)
+x=36
+i = 0
+while i<len(num):
+    if(num[i]==x):
+        print("Found at index: ",i)
+    else:
+        print("Not found")
+    i+=1
+
+
+#Break: use to terminate the loop when encounter
+num = (1,4,9,16,20,25,36,49,64,82,100,36)
+x=20
+i=0
+while i<len(num):
+    if num[i]==x :
+        print("Found at index : ",i)
+        break
+    else:
+        print('Not found')
+    i+=1
+
+#code doesn't run after break
+i=1
+while i <= 5:
+    print(i)
+    if (i==3):
+        break
+    i+=1
+print("Loop end")
