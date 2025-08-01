@@ -134,3 +134,31 @@ for el in List:
 vegetables = ["Potato",'Ladyfinger',"Zucchini","Tomato"]
 for veg in vegetables:
     print(veg)
+
+
+#tuples in loop
+tup = (1,2,3,4,5,6,7,8,9)
+for List_num in tup:
+    print(List_num)   
+
+
+
+#strings in for loop
+name = "Tanzila"
+for str in name:
+    print(str)
+else:
+    print("END")#use as break
+
+
+#finding character "z" in string "Tanzila" using for 
+name = "Tanzila"
+for  str  in name:
+    if (str == "z"):
+        print("z found at imdex: ")
+        break 
+    print(str)
+    
+else:
+    print("END")
+
