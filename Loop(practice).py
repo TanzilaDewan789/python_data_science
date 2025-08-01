@@ -155,10 +155,47 @@ else:
 name = "Tanzila"
 for  str  in name:
     if (str == "z"):
-        print("z found at imdex: ")
+        print("z found")
         break 
     print(str)
     
 else:
     print("END")
 
+
+              #range (start, stop, step/increment/ decrement)
+#range function return a sequence of numbers starting from 0 by default & increment by 1 by default & stop before the specific number.
+
+#print 0 to 5 in range function 
+print(range(5))
+
+
+#range (stop)
+for i in range(6):
+    print(i)
+
+
+#range(start, stop)
+for i in range (2,5):
+    print(i)
+
+#range(start, stop, step)
+for i in range (2, 10, 2):
+    print(i)
+
+#print all the even number from 0 to 20
+for i in range (0,51,2):
+    print("Even: ",i)
+
+
+#print all the odd numbers from 1 to 20
+for i in range (1,20,2):
+    print ("Odd: ",i)
+
+#print numbers from 1 to 50
+for i in range (51):
+    print (i)
+
+#print numbers from 50 to 1
+for i in range (50,0,-1):
+    print("Back tracking : ",i)
