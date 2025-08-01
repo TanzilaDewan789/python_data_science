@@ -199,3 +199,58 @@ for i in range (51):
 #print numbers from 50 to 1
 for i in range (50,0,-1):
     print("Back tracking : ",i)
+
+
+#print multiplication table of n
+n = int (input("enter any number: "))
+for i in range (1, 11):
+    print (i*n)
+
+
+        #Press statement 
+
+#Press is null statement that does nothing, its used as placeholder for future code.
+for i in range (5):
+    pass
+if i >5:
+    pass
+print("Work for later")
+
+         #QUIZ
+#Find the sum of first na Natural numbers 
+#For loop
+n = 5
+sum = 0
+for i in range (1, n+1):
+    print (i)
+    sum += i
+print("Total sum is= ", sum)
+
+#While loop
+n=5
+sum =0 
+i=1 
+while i<=n:
+    print(i) 
+    sum += i
+    i +=1
+
+print("Sum ",sum)
+
+
+#find the factorial of first n natural number
+#While loop
+n = 5
+fact = 1
+i = 1
+while i <=n:
+    fact =fact * i
+    i += 1 
+print ("FActorial = ", fact)
+
+#For loop
+n = 6
+fact =1 
+for i in range (1, n+1):
+    fact = fact * i
+    print("Factorial: ", fact)
