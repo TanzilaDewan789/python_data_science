@@ -1,7 +1,7 @@
 #Loops are use to repeat instructions. There are 2 types of loops in python- 
 #1.While Loop
 #2.For loop
-
+ 
 #Print & count the word "Hello"
 i=1
 while i<=5:
@@ -73,7 +73,7 @@ while i<len(num):
         break
     else:
         print('Not found')
-    i+=1
+    i+=1  
 
 #code doesn't run after break
 i=1
@@ -83,3 +83,31 @@ while i <= 5:
         break
     i+=1
 print("Loop end")
+
+
+#Continue : terminates execution in the current iteration & continues execution of the loop with the next iteration.
+i = 1
+while i <= 5:
+    if(i == 3):
+       i += 1
+       continue #skip
+    print(i)
+    i += 1
+
+#print all odd numbers from 1 to 10
+i = 1
+while i<=10:
+    if(i%2 == 0):
+        i += 1
+        continue
+    print("Odd number= ", i)
+    i += 1
+
+#print all the even numbers from 1 to 10
+i = 1 
+while i <= 10 :
+    if (i %2 != 0):
+        i += 1
+        continue
+    print ("even number= ", i)
+    i += 1
