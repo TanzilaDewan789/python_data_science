@@ -1,7 +1,11 @@
 #Loops are use to repeat instructions. There are 2 types of loops in python- 
 #1.While Loop
 #2.For loop
- 
+
+
+       #1.WHILE LOOP
+
+
 #Print & count the word "Hello"
 i=1
 while i<=5:
@@ -35,7 +39,8 @@ i =1
 while i<=10:
     print(f"{n}*{i} = {n*i}")
     i+=1
-#traverse
+
+#traverse(Linear search)
 #print the element of following list by using loop[1,4,9,16,25,36,49,64,81,100]
 num =[1,4,9,16,25,36,49,64,81,100]
 idx =0
@@ -51,7 +56,7 @@ while idx<len(fruits):
     idx+=1
 
 
-#Search for a number x in this tuple using loop
+#Search for a number x in this tuple using loop(Linear Search)
 num = (1,4,9,16,25,36,49,64,82,100,36)
 x=36
 i = 0
@@ -75,6 +80,7 @@ while i<len(num):
         print('Not found')
     i+=1  
 
+
 #code doesn't run after break
 i=1
 while i <= 5:
@@ -83,6 +89,7 @@ while i <= 5:
         break
     i+=1
 print("Loop end")
+
 
 
 #Continue : terminates execution in the current iteration & continues execution of the loop with the next iteration.
@@ -94,6 +101,7 @@ while i <= 5:
     print(i)
     i += 1
 
+
 #print all odd numbers from 1 to 10
 i = 1
 while i<=10:
@@ -103,6 +111,7 @@ while i<=10:
     print("Odd number= ", i)
     i += 1
 
+
 #print all the even numbers from 1 to 10
 i = 1 
 while i <= 10 :
@@ -111,3 +120,17 @@ while i <= 10 :
         continue
     print ("even number= ", i)
     i += 1
+
+
+       #2. FOR LOOP
+#For loop are used for sequential traversal, for traversing list, string, tuples, etc
+
+#printing a list  in for loop
+List = [1,2,3,4,5]
+for el in List:
+    print (el)
+
+#print vegetables name in list using for loop
+vegetables = ["Potato",'Ladyfinger',"Zucchini","Tomato"]
+for veg in vegetables:
+    print(veg)
