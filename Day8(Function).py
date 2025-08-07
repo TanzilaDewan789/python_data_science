@@ -18,7 +18,7 @@ add (3)
 add (4)"""
 
 # Define a function for multiple two numbers
-
+"""
 def Mult(a, b):
     c = a * b
     print(c)
@@ -28,4 +28,16 @@ Mult(12,2)
 # Use mult() multiply two floats
 Mult(3.4,10.999)
 # Use mult() multiply two different type values together
-Mult(4,"T.dewan")
+Mult(3,"T.dewan")"""
+
+#Variables
+#The input to a function is called a formal parameter.There are 2 types of functions 1.Local 2.Global
+#A variable that is declared inside a function is called a local variable. The parameter only exists within the function (i.e. the point where the function starts and stops).
+#A variable that is declared outside a function definition is a global variable, and its value is accessible and modifiable throughout the program.
+
+def square(a):
+    b = 1+a #b is local variable
+    c = a*a+b
+    print (f"a^2+b = {c}")
+    return c
+square(4)
