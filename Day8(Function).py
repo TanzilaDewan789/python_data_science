@@ -36,7 +36,7 @@ Mult(3,"T.dewan")"""
 #A variable that is declared outside a function definition is a global variable, and its value is accessible and modifiable throughout the program.
 
 #Example for local variable
-def square(a):
+"""def square(a):
     b = 1+a #b is local variable
     c = a*a+b
     print (a, "if you square + 1", c)
@@ -46,4 +46,28 @@ square(4)
 #Example for Global variable  
 X = 3 # Initializes Global variable
 Y = square(X)
-print(Y)
+print(Y)"""
+
+#If there is no return statement, the function returns None. The following two functions are equivalent:
+"""def mj ():
+    print("Body guard")
+mj()
+print(mj())
+
+def mj1 ():
+    print("Body guard")
+    return(None)
+mj1()
+print(mj1())"""
+#(Both functions do the same thing in output, even though one uses an implicit None return and the other an explicit return(None).)
+
+#Adding 2 strings
+"""def con(a,b):
+    c = a+b
+    print(c)
+    return(c)
+con ("This ","is")
+"""
+
+#Functions Make Things Simple
+ 
