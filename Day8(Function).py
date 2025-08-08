@@ -92,7 +92,7 @@ else:
 print (c2)"""
 
 # Make a Function for the calculation above
-def equation (a,b):
+"""def equation (a,b):
     c = a + b + 2 * a * b - 1
     if (c < 0):
         c = 0
@@ -101,7 +101,16 @@ def equation (a,b):
     print(c) 
 
 equation(5,4) #a1 = 5 , b1 = 4
-equation(0,0) #a2 = 0 , b2 = 0     
+equation(0,0) #a2 = 0 , b2 = 0  """  
 
+#Pre-defined functions (Python built-in function)
 
- 
+#1. print()
+album_rating = [10.0, 8.9, 9, 1, 4, 5, 7.0, 6.9]
+print(album_rating)
+
+#2. sum()
+print( sum (album_rating))
+
+#3. len()
+print (len (album_rating))
