@@ -119,11 +119,32 @@ print (len (album_rating))
 #In-Built functions
 #In Python, an in-built function is a pre-defined function that is always available for use, providing common functionality without requiring any imports
 
+#Sum of tuple
 """a = (1,2)
 c = sum (a)
 print(f"The sum of the element in the tuple {a} is {c}")
 """
-
-a = [1,2]
+#Sum of list
+"""a = [1,2]
 c = sum (a)
 print(f"The sum of the element in the list {a} is {c}")
+"""
+
+#Using if/else Statements and Loops in Functions
+def type_of_album(album_name, released_year):
+    print(album_name, released_year)
+
+    if released_year > 1890 :
+        return "Modern"
+    else:
+        return "Oldie"
+
+x = type_of_album("The BodyGuard", 1980)  
+print(x)
+
+
+#Loop in function 
+def printList(the_list):
+    for element in the_list:
+        print(element)
+printList([1,'3','The man', 'abc'])
