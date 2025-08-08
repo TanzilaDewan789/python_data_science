@@ -70,4 +70,38 @@ con ("This ","is")
 """
 
 #Functions Make Things Simple
+#Block-1
+"""a1 = 4
+b1 = 5
+c1 = a1 + b1 *a1 *b1 - 1
+if (c1<0):
+    c1 = 0
+else:
+    c1 = 5
+
+print(c1)
+
+#Block -2
+a2 = 0
+b2 = 0
+c2 = a2 + b2 + 2 * a2 * b2 - 1
+if (c2 < 0):
+    c2 = 0
+else:
+    c2 = 5
+print (c2)"""
+
+# Make a Function for the calculation above
+def equation (a,b):
+    c = a + b + 2 * a * b - 1
+    if (c < 0):
+        c = 0
+    else:
+        c = 5
+    print(c) 
+
+equation(5,4) #a1 = 5 , b1 = 4
+equation(0,0) #a2 = 0 , b2 = 0     
+
+
  
