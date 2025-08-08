@@ -103,10 +103,10 @@ print (c2)"""
 equation(5,4) #a1 = 5 , b1 = 4
 equation(0,0) #a2 = 0 , b2 = 0  """  
 
-#Pre-defined functions (Python built-in function)
+#Pre-defined functions 
 
 #1. print()
-album_rating = [10.0, 8.9, 9, 1, 4, 5, 7.0, 6.9]
+"""album_rating = [10.0, 8.9, 9, 1, 4, 5, 7.0, 6.9]
 print(album_rating)
 
 #2. sum()
@@ -114,3 +114,16 @@ print( sum (album_rating))
 
 #3. len()
 print (len (album_rating))
+"""
+
+#In-Built functions
+#In Python, an in-built function is a pre-defined function that is always available for use, providing common functionality without requiring any imports
+
+"""a = (1,2)
+c = sum (a)
+print(f"The sum of the element in the tuple {a} is {c}")
+"""
+
+a = [1,2]
+c = sum (a)
+print(f"The sum of the element in the list {a} is {c}")
